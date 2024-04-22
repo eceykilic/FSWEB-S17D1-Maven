@@ -19,7 +19,7 @@ public class AnimalController {
     }
 
     @GetMapping("/{id}")
-    public Animal getAnimalById(@PathVariable int id) {
+    public Animal getAnimalsById(@PathVariable int id) {
         return animals.get(id);
     }
 
